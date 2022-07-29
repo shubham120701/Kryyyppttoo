@@ -1,7 +1,19 @@
 function App() {
   return (
     <div>
-      <h1>Let's Go</h1>
+      <form>
+       <div>
+         <label>Username </label>
+         <input type="text" name="uname" required />
+       </div>
+       <div>
+         <label>Password </label>
+         <input type="password" name="pass" required />
+       </div>
+       <div className="button-container">
+         <input type="submit" />
+       </div>
+     </form>
     </div>
   );
 }
